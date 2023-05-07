@@ -70,7 +70,7 @@ export const Orders = () => {
                           <div className="row m-2 p-2 card flex-row">
                             <div className="col-md-4">
                               <img
-                                src={`/api/v1/product/product-photo/${cp._id}`}
+                                src={`${process.env.REACT_APP_BACKEND_SERVER}/api/v1/product/product-photo/${cp._id}`}
                                 alt="product_photo"
                                 // className="card-img-top"
                                 height={'200px'}

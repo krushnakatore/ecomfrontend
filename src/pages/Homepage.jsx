@@ -213,7 +213,7 @@ export const Homepage = () => {
                               style={{ width: '16rem' }}
                             >
                               <img
-                                src={`/api/v1/product/product-photo/${product._id}`}
+                                src={`${process.env.REACT_APP_BACKEND_SERVER}/api/v1/product/product-photo/${product._id}`}
                                 alt="product_photo"
                                 className="card-img-top"
                               />
