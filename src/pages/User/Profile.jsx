@@ -60,7 +60,7 @@ export const Profile = () => {
             <UserMenu />
           </div>
           <div className="col-md-8">
-            <div className="form-container" style={{ marginTop: '-40px' }}>
+            <div className="form-container" style={{ marginTop: '40px' }}>
               <form onSubmit={handleSubmit}>
                 <div className="title">USER PROFILE</div>
                 <div className="mb-3">
